@@ -1,0 +1,7 @@
+# Query 1: Get the links with wikidata
+PREFIX sr: <http://www.studyroomsmadrid.es/ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?x ?wikiInfo
+WHERE {
+    ?x owl:sameAs ?wikiInfo .
+}
